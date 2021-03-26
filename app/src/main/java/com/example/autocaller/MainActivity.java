@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     //Getting the edittext and button instance
-    edittext1 = (EditText) findViewById(R.id.editText1);
-    button1 = (Button) findViewById(R.id.Button1);
+    edittext1 = (EditText) findViewById(R.id.inputfile);
+    button1 = (Button) findViewById(R.id.button1);
 
     //Performing action on button click
     button1.setOnClickListener(new OnClickListener() {
